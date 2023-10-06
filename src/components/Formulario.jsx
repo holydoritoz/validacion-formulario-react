@@ -1,9 +1,7 @@
-import PropTypes from 'prop-types'
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Swal from 'sweetalert2'
-
 
 function Formulario() {
   const [userName, setUserName] = useState('');
@@ -78,15 +76,12 @@ function Formulario() {
         type="submit"
         value="submit"
         >
-        Registrarse
+        
+        Registarse
       </Button> 
     </Form>
     </>
   )
 }
-
-Formulario.propTypes = {
-  handleRegister: PropTypes.func.isRequired
-};
 
 export default Formulario

@@ -12,13 +12,8 @@ function Registro({ successMessage, errorMessage, handleRegister }) {
       github="fa-brands fa-github text-secondary-emphasis"
       linkedin="fa-brands fa-linkedin text-secondary-emphasis"
     />
-    <Formulario
-    handleRegister = { handleRegister }
-    />
-    <Alert
-    successMessage = { successMessage }
-    errorMessage = { errorMessage }
-    />
+    <Formulario handleRegister={ handleRegister }/>
+    <Alert successMessage={successMessage} errorMessage={errorMessage} />
     </Container>
   )
 }
@@ -26,7 +21,8 @@ function Registro({ successMessage, errorMessage, handleRegister }) {
 Registro.propTypes = {
   successMessage: PropTypes.string,
   errorMessage:PropTypes.string,
-  handleRegister: PropTypes.func
+  handleRegister:PropTypes.string,
 }
+
 
 export default Registro

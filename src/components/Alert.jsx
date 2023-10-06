@@ -14,8 +14,8 @@ const Alert = ({ successMessage, errorMessage }) => {
 };
 
 Alert.propTypes = {
-    successMessage: PropTypes.string,
-    errorMessage:PropTypes.string,
-  }
+  successMessage: PropTypes.string,
+  errorMessage:PropTypes.string,
+}
 
 export default Alert;
