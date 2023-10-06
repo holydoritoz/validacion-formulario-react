@@ -5,7 +5,7 @@ import Form from 'react-bootstrap/Form';
 import Swal from 'sweetalert2'
 
 
-function Formulario({ handleRegister }) {
+function Formulario() {
   const [userName, setUserName] = useState('');
   const [userMail, setUserMail] = useState('');
   const [userPassword, setUserPassword] = useState('');
@@ -16,7 +16,6 @@ function Formulario({ handleRegister }) {
     e.preventDefault();
 
     if(userName.trim() === '' || userMail ==='' || userPassword ==="" || userPasswordCheck ===""){
-      handleRegister('Campos vacios')
       Swal.fire({
         icon: 'error',
         title: 'Oops...',
@@ -25,15 +24,12 @@ function Formulario({ handleRegister }) {
       setError(true);
       return
     } else if(userPassword !== userPasswordCheck){
-      handleRegister('Contraseñas invalidas')
-
       Swal.fire({
         icon: 'error',
         title: 'Oops...',
         text: 'Las contraseñas ingresadas no son iguales',
       });
     } else
-    handleRegister('Todo ok')
     Swal.fire({
       icon: 'success',
       title: 'Formulario enviado exitosamente',
