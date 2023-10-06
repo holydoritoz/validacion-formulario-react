@@ -1,6 +1,4 @@
-
 import PropTypes from 'prop-types'
-
 function SocialButton( {facebook, github, linkedin} ) { 
 
   return (
