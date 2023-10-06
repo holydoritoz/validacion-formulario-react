@@ -18,5 +18,4 @@ Alert.propTypes = {
   errorMessage:PropTypes.string,
 }
 
-
 export default Alert;

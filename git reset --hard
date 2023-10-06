@@ -1,0 +1,35 @@
+[33mcommit 694109ce8074d501df3be61defd393d21d48b7f5[m[33m ([m[1;36mHEAD -> [m[1;32mshaggy[m[33m, [m[1;31morigin/shaggy[m[33m)[m
+Author: dario urdaneta <dariourdaneta.b@gmail.com>
+Date:   Thu Oct 5 21:49:15 2023 -0300
+
+    adding props in to App component
+
+[33mcommit 0b54c8d38668bfeaf12eb48b866821583a0748f2[m
+Author: dario urdaneta <dariourdaneta.b@gmail.com>
+Date:   Thu Oct 5 21:07:49 2023 -0300
+
+    fixing password checker
+
+[33mcommit 11713dbcb07e0c0633dee4b6e566e20f21d20977[m
+Author: DevShaggy <c.guzmanabrigo@gmail.com>
+Date:   Thu Oct 5 21:05:02 2023 -0300
+
+    Dejando el boton de resgistrar
+
+[33mcommit fadece0c38cc5e3b04465d1e52d55e8a3ff37e0b[m
+Author: DevShaggy <c.guzmanabrigo@gmail.com>
+Date:   Thu Oct 5 21:00:08 2023 -0300
+
+    Cambie regstrarse por mi nombre
+
+[33mcommit 94274930b7dced2b8578b6e49037f47d5e5d51a8[m
+Author: dario urdaneta <dariourdaneta.b@gmail.com>
+Date:   Thu Oct 5 20:43:59 2023 -0300
+
+    adding app
+
+[33mcommit 84df793de531710dbdd9817c0ba121955794f18f[m
+Author: dario urdaneta <dariourdaneta.b@gmail.com>
+Date:   Thu Oct 5 20:43:08 2023 -0300
+
+    first commit
