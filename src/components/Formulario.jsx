@@ -83,7 +83,7 @@ function Formulario({ handleRegister }) {
         value="submit"
         >
         
-        Carlos
+        Registarse
       </Button> 
     </Form>
     </>
